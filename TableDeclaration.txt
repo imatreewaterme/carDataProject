@@ -1,0 +1,29 @@
+pip install pyodbc
+pip install numpy
+
+
+CREATE TABLE carData (
+  id int,
+  vin nvarchar(40) PRIMARY KEY,
+  displayColor nvarchar(120),
+  year int,
+  make nvarchar(40),
+  model nvarchar(40),
+  dealerName nvarchar(60),
+  price nvarchar(40),
+  mileage nvarchar(40),
+  city nvarchar(40),
+  lat float,
+  lon float,
+  condition nvarchar(40),
+  createdAt nvarchar(40),
+  updatedAt nvarchar(40),
+  modelId int,
+  active bit,
+  state nvarchar(40),
+  trim nvarchar(40),
+  bodyType nvarchar(40),
+  bodyStyle nvarchar(40),
+  regionName nvarchar(40) NULL,
+  experience nvarchar(40)
+);
